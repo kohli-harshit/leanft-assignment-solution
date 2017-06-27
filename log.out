@@ -1,0 +1,154 @@
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object "Web Button".
+Verify that this object's properties match an object currently displayed in your application.
+Failed - Upload a File to Google Drive - Cannot identify the object "Web Button".
+Verify that this object's properties match an object currently displayed in your application.
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object "Web Button".
+Verify that this object's properties match an object currently displayed in your application.
+Failed - Upload a File to Google Drive - Cannot identify the object "Web Button".
+Verify that this object's properties match an object currently displayed in your application.
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+com.hp.lft.sdk.ReplayObjectNotUniqueException: The "Web Button" object's description matches more than one of the objects currently displayed in your application. Add additional properties to the object description in order to uniquely identify the object.
+Failed - Upload a File to Google Drive - The "Web Button" object's description matches more than one of the objects currently displayed in your application. Add additional properties to the object description in order to uniquely identify the object.
+SDK Initialized
+Browser Launched
+java.lang.Exception: Menu Item - File upload not found
+Failed - Upload a File to Google Drive - Menu Item - File upload not found
+SDK Initialized
+Browser Launched
+com.hp.lft.sdk.ReplayParentMissingException: Cannot find the "Web WebElement" object's parent "[ [ My Drive - Google Drive ] ]" (class Page).
+Verify that parent properties match an object currently displayed in your application.
+Failed - Upload a File to Google Drive - Cannot find the "Web WebElement" object's parent "[ [ My Drive - Google Drive ] ]" (class Page).
+Verify that parent properties match an object currently displayed in your application.
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+com.hp.lft.sdk.GeneralLeanFtException: send failed
+Failed - Upload a File to Google Drive - send failed
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+com.hp.lft.sdk.ReplayParentMissingException: Cannot find the "Web WebElement" object's parent "[ [ My Drive - Google Drive ] ]" (class Page).
+Verify that parent properties match an object currently displayed in your application.
+Failed - Upload a File to Google Drive - Cannot find the "Web WebElement" object's parent "[ [ My Drive - Google Drive ] ]" (class Page).
+Verify that parent properties match an object currently displayed in your application.
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object "Web WebElement".
+Verify that this object's properties match an object currently displayed in your application.
+Failed - Upload a File to Google Drive - Cannot identify the object "Web WebElement".
+Verify that this object's properties match an object currently displayed in your application.
+SDK Initialized
+Browser Launched
+com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object "Web WebElement".
+Verify that this object's properties match an object currently displayed in your application.
+Failed - Upload a File to Google Drive - Cannot identify the object "Web WebElement".
+Verify that this object's properties match an object currently displayed in your application.
+SDK Initialized
+Browser Launched
+com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object "Web WebElement".
+Verify that this object's properties match an object currently displayed in your application.
+Failed - Upload a File to Google Drive - Cannot identify the object "Web WebElement".
+Verify that this object's properties match an object currently displayed in your application.
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+Passed - Upload a File to Google Drive - File - C:\testfile.txt uploaded successfully
+SDK Initialized
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object "Web Button".
+Verify that this object's properties match an object currently displayed in your application.
+Failed - Add Contact to Google Contacts - Cannot identify the object "Web Button".
+Verify that this object's properties match an object currently displayed in your application.
+SDK Initialized
+SDK Initialized
+SDK Initialized
+Browser Launched
+Passed - Upload a File to Google Drive - File - C:\testfile.txt uploaded successfully
+SDK Initialized
+Browser Launched
+Passed - Upload a File to Google Drive - File - C:\testfile.txt uploaded successfully
+Browser Launched
+com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object "Web EditField".
+Verify that this object's properties match an object currently displayed in your application.
+Failed - Add Contact to Google Contacts - Cannot identify the object "Web EditField".
+Verify that this object's properties match an object currently displayed in your application.
+SDK Initialized
+Browser Launched
+Passed - Upload a File to Google Drive - File - C:\testfile.txt uploaded successfully
+Browser Launched
+com.hp.lft.sdk.ReplayObjectNotFoundException: Cannot identify the object "Web EditField".
+Verify that this object's properties match an object currently displayed in your application.
+Failed - Add Contact to Google Contacts - Cannot identify the object "Web EditField".
+Verify that this object's properties match an object currently displayed in your application.
+SDK Initialized
+Browser Launched
+Passed - Upload a File to Google Drive - File - C:\testfile.txt uploaded successfully
+Browser Launched
+Passed - Add Contact to Google Contacts - Contact - TestContact added successfully
+SDK Initialized
+Browser Launched
+Passed - Upload a File to Google Drive - File - C:\testfile.txt uploaded successfully
+Browser Launched
+Passed - Add Contact to Google Contacts - Contact - TestContact added successfully
+SDK Initialized
+Browser Launched
+Passed - Upload a File to Google Drive - File - C:\testfile.txt uploaded successfully
+Browser Launched
+Passed - Add Contact to Google Contacts - Contact - TestContact added successfully
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+SDK Initialized
+Browser Launched
+Failed - Verify Mail should be sent - Mail Sent Pop up not found
+SDK Initialized
+Browser Launched
+Passed - Verify Mail should be sent - Mail Sent
+SDK Initialized
+SDK Initialized
+Browser Launched
+Passed - Upload a File to Google Drive - File - C:\testfile.txt uploaded successfully
+Browser Launched
+Passed - Add Contact to Google Contacts - Contact - TestContact added successfully
+Browser Launched
+Passed - Verify Mail should be sent - Mail Sent

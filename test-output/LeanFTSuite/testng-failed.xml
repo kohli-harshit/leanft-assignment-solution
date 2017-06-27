@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [LeanFTSuite]">
+  <test name="LeanFtTest(failed)">
+    <classes>
+      <class name="test.GDriveTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="UploadFileToDrive"/>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+          <include name="Start_Engine"/>
+        </methods>
+      </class> <!-- test.GDriveTest -->
+      <class name="test.ContactsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="tearDown"/>
+          <include name="createContact"/>
+          <include name="launchBrowser"/>
+          <include name="Start_Engine"/>
+        </methods>
+      </class> <!-- test.ContactsTest -->
+    </classes>
+  </test> <!-- LeanFtTest(failed) -->
+</suite> <!-- Failed suite [LeanFTSuite] -->

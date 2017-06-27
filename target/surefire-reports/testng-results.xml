@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LeanFTSuite" duration-ms="86680" started-at="2017-06-27T02:05:19Z" finished-at="2017-06-27T02:06:46Z">
+    <groups>
+      <group name="FileUpload">
+        <method signature="GDriveTest.UploadFileToDrive()[pri:0, instance:test.GDriveTest@1f2f0109]" name="UploadFileToDrive" class="test.GDriveTest"/>
+      </group> <!-- FileUpload -->
+    </groups>
+    <test name="LeanFtTest" duration-ms="86680" started-at="2017-06-27T02:05:19Z" finished-at="2017-06-27T02:06:46Z">
+      <class name="test.GDriveTest">
+        <test-method status="PASS" signature="Start_Engine()[pri:0, instance:test.GDriveTest@1f2f0109]" name="Start_Engine" is-config="true" duration-ms="936" started-at="2017-06-27T07:35:18Z" finished-at="2017-06-27T07:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start_Engine -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.GDriveTest@1f2f0109]" name="launchBrowser" is-config="true" duration-ms="13292" started-at="2017-06-27T07:35:19Z" finished-at="2017-06-27T07:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="UploadFileToDrive()[pri:0, instance:test.GDriveTest@1f2f0109]" name="UploadFileToDrive" duration-ms="47304" started-at="2017-06-27T07:35:32Z" finished-at="2017-06-27T07:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadFileToDrive -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.GDriveTest@1f2f0109]" name="closeBrowser" is-config="true" duration-ms="728" started-at="2017-06-27T07:36:19Z" finished-at="2017-06-27T07:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.GDriveTest@1f2f0109]" name="tearDown" is-config="true" duration-ms="1341" started-at="2017-06-27T07:36:46Z" finished-at="2017-06-27T07:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.GDriveTest -->
+      <class name="test.ContactsTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.ContactsTest@6870c3c2]" name="launchBrowser" is-config="true" duration-ms="10600" started-at="2017-06-27T07:36:20Z" finished-at="2017-06-27T07:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="createContact()[pri:0, instance:test.ContactsTest@6870c3c2]" name="createContact" duration-ms="14105" depends-on-groups="FileUpload" started-at="2017-06-27T07:36:31Z" finished-at="2017-06-27T07:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ContactsTest@6870c3c2]" name="closeBrowser" is-config="true" duration-ms="633" started-at="2017-06-27T07:36:45Z" finished-at="2017-06-27T07:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.ContactsTest -->
+    </test> <!-- LeanFtTest -->
+  </suite> <!-- LeanFTSuite -->
+</testng-results>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LeanFTSuite" duration-ms="90086" started-at="2017-06-27T03:08:52Z" finished-at="2017-06-27T03:10:22Z">
+    <groups>
+      <group name="Mail">
+        <method signature="GMailTest.SendMail()[pri:0, instance:test.GMailTest@2d928643]" name="SendMail" class="test.GMailTest"/>
+      </group> <!-- Mail -->
+      <group name="Contacts">
+        <method signature="ContactsTest.createContact()[pri:0, instance:test.ContactsTest@5649fd9b]" name="createContact" class="test.ContactsTest"/>
+      </group> <!-- Contacts -->
+      <group name="Drive">
+        <method signature="GDriveTest.UploadFileToDrive()[pri:0, instance:test.GDriveTest@73846619]" name="UploadFileToDrive" class="test.GDriveTest"/>
+      </group> <!-- Drive -->
+    </groups>
+    <test name="LeanFtTest" duration-ms="90086" started-at="2017-06-27T03:08:52Z" finished-at="2017-06-27T03:10:22Z">
+      <class name="test.ContactsTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.ContactsTest@5649fd9b]" name="launchBrowser" is-config="true" duration-ms="9236" started-at="2017-06-27T08:39:25Z" finished-at="2017-06-27T08:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="createContact()[pri:0, instance:test.ContactsTest@5649fd9b]" name="createContact" duration-ms="14557" depends-on-groups="Drive" started-at="2017-06-27T08:39:34Z" finished-at="2017-06-27T08:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ContactsTest@5649fd9b]" name="closeBrowser" is-config="true" duration-ms="577" started-at="2017-06-27T08:39:48Z" finished-at="2017-06-27T08:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.ContactsTest -->
+      <class name="test.GDriveTest">
+        <test-method status="PASS" signature="Start_Engine()[pri:0, instance:test.GDriveTest@73846619]" name="Start_Engine" is-config="true" duration-ms="933" started-at="2017-06-27T08:38:51Z" finished-at="2017-06-27T08:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start_Engine -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.GDriveTest@73846619]" name="launchBrowser" is-config="true" duration-ms="9409" started-at="2017-06-27T08:38:52Z" finished-at="2017-06-27T08:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="UploadFileToDrive()[pri:0, instance:test.GDriveTest@73846619]" name="UploadFileToDrive" duration-ms="22067" started-at="2017-06-27T08:39:02Z" finished-at="2017-06-27T08:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadFileToDrive -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.GDriveTest@73846619]" name="closeBrowser" is-config="true" duration-ms="829" started-at="2017-06-27T08:39:24Z" finished-at="2017-06-27T08:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.GDriveTest@73846619]" name="tearDown" is-config="true" duration-ms="1409" started-at="2017-06-27T08:40:22Z" finished-at="2017-06-27T08:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.GDriveTest -->
+      <class name="test.GMailTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.GMailTest@2d928643]" name="launchBrowser" is-config="true" duration-ms="9282" started-at="2017-06-27T08:39:49Z" finished-at="2017-06-27T08:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="SendMail()[pri:0, instance:test.GMailTest@2d928643]" name="SendMail" duration-ms="23432" depends-on-groups="Contacts" started-at="2017-06-27T08:39:58Z" finished-at="2017-06-27T08:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendMail -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.GMailTest@2d928643]" name="closeBrowser" is-config="true" duration-ms="652" started-at="2017-06-27T08:40:22Z" finished-at="2017-06-27T08:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.GMailTest -->
+    </test> <!-- LeanFtTest -->
+  </suite> <!-- LeanFTSuite -->
+</testng-results>
